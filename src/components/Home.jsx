@@ -1,25 +1,20 @@
 import React from "react";
 import "./Home.css";
-import myPhoto from "../assets/my-photo.jpg";
 
 function Home() {
   return (
     <>
-      <div className="hello">
-        <img src={myPhoto} alt="My Photo"/>
-        <p>hi! <br />
-          my name is marsya aurelia <br />
-          syahkira, you can call me <br />
-          marsya or caca. i am enthusiastic <br />
-          about graphic design, UI/UX <br />
-          design, and frontend web <br />
-          development.
-        </p>
-      </div>
-
       <div className="name">
         <h2>i <span>am</span></h2>
         <h1>marsya aurelia</h1>
+        <p>hi!
+          my name is marsya aurelia
+          syahkira, you can call me
+          marsya or caca. i am enthusiastic <br />
+          about graphic design, UI/UX
+          design, and frontend web
+          development.
+        </p>
       </div>
 
       <div className="bottom">

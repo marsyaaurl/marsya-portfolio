@@ -8,29 +8,10 @@ body {
     width: 100%;
 }
 
-.hello {
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: start; 
-    margin: 130px auto;
-    gap: 20px; 
-}
-
-.hello img {
-    border-radius: 300px;
-    width: 150px;
-    margin-left: 930px; 
-}
-
-.hello p {
-    margin: 0; 
-    line-height: 1.2;
-    font-size: 14px;
-}
-
 .name {
+    margin: 380px auto;
     margin-left: 80px;
+    margin-bottom: 0;
 }
 
 .name h2{
