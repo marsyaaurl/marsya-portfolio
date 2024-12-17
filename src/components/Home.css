@@ -12,6 +12,7 @@ body {
     margin: 380px auto;
     margin-left: 80px;
     margin-bottom: 0;
+    margin-right: 600px;
 }
 
 .name h2{
@@ -47,26 +48,26 @@ body {
 
 @media screen and (max-width: 768px) {
     .bottom h3 {
-        font-size: 16px;
+        font-size: 13px;
         margin-left: 50px;
     }
 
     .name {
         margin-left: 50px;
-        margin-top: 338px;
+        margin-top: 350px;
         margin-right: 50px;
     }
 
     .name h2 {
-        font-size: 50px; /* Ukuran font lebih kecil dibanding desktop */
+        font-size: 40px; /* Ukuran font lebih kecil dibanding desktop */
     }
 
     .name span {
-        font-size: 50px; /* Sesuaikan ukuran */
+        font-size: 40px; /* Sesuaikan ukuran */
     }
 
     .name h1 {
-        font-size: 70px; /* Pertahankan penonjolan heading utama */
+        font-size: 55px; /* Pertahankan penonjolan heading utama */
     }
 
     .name p {
@@ -94,7 +95,7 @@ body {
     }
 
     .name h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .name p{
