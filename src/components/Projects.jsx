@@ -43,13 +43,13 @@ const graphicDesign = [
       image: Merch,
       name: "Merchandise HIMA S1 SI UPNVJ",
       narrative: "As a Media and Communication staff in HIMA S1 Sistem Informasi UPNVJ, I was involved in a project to design merchandise for HIMA, which was sold to students of the Faculty of Computer Science at UPNVJ. This project allowed me to explore creative design for promotional items, ensuring the merchandise was both visually appealing and aligned with the organization's identity.",
-      link: ""
+      link: "https://www.instagram.com/p/DCJJsilP3xE/?igsh=MTlzN2l5YWNxOTk1dQ=="
     },
     {
       image: Jakang,
       name: "Jaket Prodi S1 Sistem Informasi UPNVJ",
       narrative: "As a Media and Communication staff in HIMA S1 Sistem Informasi UPNVJ, I worked on a project to design and produce program-specific jackets for students of the Information Systems. This project involved creating designs that reflected the program's identity while ensuring they were attractive and functional.",
-      link: ""
+      link: "https://www.instagram.com/p/DCT5JuBv2RA/?igsh=bDJrbmU2Mzg0N3V6"
     }
   ];
 
@@ -75,7 +75,8 @@ const graphicDesign = [
       image: georgia,
       name: "Portfolio of Georgia O’Keeffe",
       detail: "by Marsya, Sabira, Hanna, Quyun, and Raditya",
-      narrative: "The Georgia O'Keeffe portfolio website is a dedicated platform showcasing the artist’s life, works, and legacy. It includes a brief biography, a gallery of her iconic paintings with detailed descriptions, and information on exhibitions, where visitors can also purchase tickets directly. The website offers exclusive merchandise inspired by her art, enhancing the connection to her work. Additionally, it features a Community section, allowing members to post personal stories or reflections, fostering engagement among enthusiasts. Posting access is exclusive to membership holders, creating a unique space for fans to connect and share their passion for Georgia O'Keeffe."
+      narrative: "The Georgia O'Keeffe portfolio website is a dedicated platform showcasing the artist’s life, works, and legacy. It includes a brief biography, a gallery of her iconic paintings with detailed descriptions, and information on exhibitions, where visitors can also purchase tickets directly. The website offers exclusive merchandise inspired by her art, enhancing the connection to her work. Additionally, it features a Community section, allowing members to post personal stories or reflections, fostering engagement among enthusiasts. Posting access is exclusive to membership holders, creating a unique space for fans to connect and share their passion for Georgia O'Keeffe.",
+      link: "https://github.com/marsyaaurl/Georgia_OKeeffe"
     }
   ];
 
@@ -140,7 +141,7 @@ const Projects = () => {
         </div>
         <div className="doc-gra">
           {website.map((web, index) => (
-            <div className="doc-gra-container" key={index}>
+            <div className="doc-gra-container" key={index} onClick={() => window.open(ui.link, '_blank')}>
               <h4>{web.name}</h4>
               <div className="doc-gra-photo">
                 <img src={web.image} alt={web.name} />
