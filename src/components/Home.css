@@ -45,11 +45,59 @@ body {
     text-align: left; 
 }
 
-@media (max-width: 768px) {
-    .hello {
-        margin-top: 100px;
-        margin-bottom: 100px;
+@media screen and (max-width: 768px) {
+    .bottom h3 {
+        font-size: 16px;
         margin-left: 50px;
+    }
+
+    .name {
+        margin-left: 50px;
+        margin-top: 338px;
         margin-right: 50px;
+    }
+
+    .name h2 {
+        font-size: 50px; /* Ukuran font lebih kecil dibanding desktop */
+    }
+
+    .name span {
+        font-size: 50px; /* Sesuaikan ukuran */
+    }
+
+    .name h1 {
+        font-size: 70px; /* Pertahankan penonjolan heading utama */
+    }
+
+    .name p {
+        font-size: 14px; /* Sedikit lebih besar dibanding 480px */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bottom h3{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .name {
+        margin-left: 30px;
+        margin-top: 350px;
+    }
+
+    .name h2 {
+        font-size: 40px;
+    }
+
+    .name span {
+        font-size: 40px;
+    }
+
+    .name h1 {
+        font-size: 60px;
+    }
+
+    .name p{
+        font-size: 12px;
     }
 }

@@ -10,7 +10,6 @@ function App() {
     <Router>
       <nav className="navbar">
         <ul className="menu">
-          <li><Link to="/" className="logoname">mar <span className="logospan">sya</span></Link></li>
           <li><Link to="/" className="middle">About</Link></li>
           <li><Link to="/experiences" className="middle">Experiences</Link></li>
           <li><Link to="/projects" className="middle2">Projects</Link></li>

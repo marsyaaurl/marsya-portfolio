@@ -5,41 +5,13 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1000;
+  align-items: right;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 60px;
-}
-
-.logoname {
-  margin-right: 295px;
-  background-color: #5176A1;
-  border-radius: 30px;
-  padding-left: 10px;
-  padding-right: 3px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: #FCF8F5;
-}
-
-.logospan {
-  background-color: #FCF8F5;
-  border-color: #5176A1;
-  color: #5176A1;
-  border-radius: 30px;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  align-items: center;
-  justify-content: center;
-}
-
-.logoname:hover {
-  text-decoration: none;
-  color: #FCF8F5;
-  box-shadow: #FCF8F5;
 }
 
 .middle, .middle2 {
@@ -105,4 +77,62 @@ body {
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 20px;
+  }
+  
+  nav ul {
+    gap: 30px; /* Kurangi jarak antar elemen */
+    flex-direction: row; /* Jadikan vertikal jika perlu */
+    align-items: flex-start; /* Penyesuaian jika vertikal */
+  }
 
+  nav ul li a {
+    font-size: 14px; /* Ukuran font lebih kecil */
+  }
+
+  .middle, .middle2, .right {
+    padding: 8px; /* Kurangi padding */
+    font-size: 14px; /* Ukuran font lebih kecil */
+  }
+
+  .middle:hover, .middle2:hover, .right:hover {
+    padding: 10px; /* Sesuaikan hover padding */
+    font-size: 15px; /* Ukuran font hover sedikit lebih besar */
+  }
+
+  .middle2 {
+    margin-right: 50px; /* Kurangi margin agar muat di layar kecil */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 15px;
+  }
+
+  nav ul {
+    gap: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  .middle, .middle2, .right {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .middle:hover, .middle2:hover, .right:hover {
+    padding: 7px;
+    font-size: 12px;
+  }
+
+  .middle2 {
+    margin-right: 20px;
+  }
+}

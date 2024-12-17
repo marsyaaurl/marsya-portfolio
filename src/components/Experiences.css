@@ -2,18 +2,21 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0;
+  margin: 0px auto;
   background-color: #FCF8F5;
   color: #5176A1;
   width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .opening {
   display: flex;
-  flex-direction: column; 
   align-items: center;
-  gap: 130px; 
+  margin: 250px auto;
+  justify-content: center;
+  margin-bottom: 6%; 
+  gap: 150px;
+  flex-direction: column;
 }
 
 .opening h1 {
@@ -113,6 +116,7 @@ h1 {
   width: 100%;
   gap: 20px;
   color: #5176A1;
+  bottom: 0;
 }
 
 .social-links a{
@@ -127,8 +131,110 @@ h1 {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .opening {
-    margin-top: 50px;
+    flex-direction: column;
+    margin: 0px auto; /* Menambahkan margin atas lebih besar */
+    justify-content: center;
+}
+
+.opening h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+  .folder-container {
+      width: 90%; /* Perkecil lebar folder */
+      gap: 15px; /* Kurangi jarak antar folder */
+  }
+
+  .folder img {
+      width: 80px; /* Perkecil ikon folder */
+  }
+
+  .title h2 {
+      font-size: 40px; /* Perkecil heading */
+  }
+
+  .doc-org-container {
+      width: 80%; /* Kurangi lebar kontainer */
+      flex-direction: column; /* Susun elemen secara vertikal */
+      align-items: center; /* Pusatkan konten */
+      gap: 8px;
+      padding: 20px;
+      justify-content: center;
+      margin: 20px auto;
+  }
+
+  .doc-org-container img {
+      width: 380px; /* Perkecil gambar */
+  }
+
+  .text p {
+      font-size: 16px; /* Kurangi ukuran font */
+  }
+
+  .text h4 {
+      font-size: 22px; /* Kurangi ukuran heading */
+  }
+
+  .footer-exp {
+      font-size: 14px;
+  }
+
+  .social-links a {
+      font-size: 14px; /* Perkecil link sosial media */
+      padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .opening {
+    margin: 200px auto; /* Margin atas lebih besar untuk layar lebih kecil */
+}
+
+.opening h1 {
+    font-size: 50px;
+}
+
+  .folder-container {
+      width: 95%; /* Hampir penuh layar */
+      gap: 10px; /* Jarak minimal */
+  }
+
+  .folder img {
+      width: 60px; /* Perkecil ikon folder lebih jauh */
+  }
+
+  .title h2 {
+      font-size: 30px; /* Heading lebih kecil */
+  }
+
+  .doc-org-container {
+      width: 90%; /* Hampir penuh layar */
+      padding: 20px; /* Kurangi padding */
+      gap: 8px;
+  }
+
+  .doc-org-container img {
+      width: 200px; /* Gambar lebih kecil */
+  }
+
+  .text p {
+      font-size: 14px; /* Kurangi ukuran font lebih jauh */
+  }
+
+  .text h4 {
+      font-size: 18px; /* Heading lebih kecil */
+  }
+
+  .footer-exp {
+      font-size: 12px; /* Teks footer kecil */
+      padding: 15px;
+  }
+
+  .social-links a {
+      font-size: 12px; /* Teks link kecil */
+      padding: 5px;
   }
 }

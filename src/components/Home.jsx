@@ -10,7 +10,7 @@ function Home() {
         <p>hi!
           my name is marsya aurelia
           syahkira, you can call me
-          marsya or caca. i am enthusiastic <br />
+          marsya or caca. i am enthusiastic
           about graphic design, UI/UX
           design, and frontend web
           development.
