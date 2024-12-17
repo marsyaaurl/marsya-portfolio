@@ -59,19 +59,19 @@ body {
     }
 
     .name h2 {
-        font-size: 40px; /* Ukuran font lebih kecil dibanding desktop */
+        font-size: 35px; /* Ukuran font lebih kecil dibanding desktop */
     }
 
     .name span {
-        font-size: 40px; /* Sesuaikan ukuran */
+        font-size: 35px; /* Sesuaikan ukuran */
     }
 
     .name h1 {
-        font-size: 55px; /* Pertahankan penonjolan heading utama */
+        font-size: 45px; /* Pertahankan penonjolan heading utama */
     }
 
     .name p {
-        font-size: 14px; /* Sedikit lebih besar dibanding 480px */
+        font-size: 45px; /* Sedikit lebih besar dibanding 480px */
     }
 }
 
@@ -87,15 +87,15 @@ body {
     }
 
     .name h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .name span {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .name h1 {
-        font-size: 50px;
+        font-size: 43px;
     }
 
     .name p{
