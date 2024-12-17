@@ -25,10 +25,10 @@ body {
 
 .folder-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  width: 80%; 
+  width: 100%; 
 }
 
 .folder img {
@@ -144,7 +144,7 @@ h1 {
 }
 
   .folder-container {
-      width: 90%; /* Perkecil lebar folder */
+      width: 100%; /* Perkecil lebar folder */
       gap: 15px; /* Kurangi jarak antar folder */
   }
 
@@ -157,13 +157,14 @@ h1 {
   }
 
   .doc-org-container {
-      width: 80%; /* Kurangi lebar kontainer */
+      width: 60%; /* Kurangi lebar kontainer */
       flex-direction: column; /* Susun elemen secara vertikal */
       align-items: center; /* Pusatkan konten */
       gap: 8px;
       padding: 20px;
       justify-content: center;
       margin: 20px auto;
+      margin-left: 160px;
   }
 
   .doc-org-container img {
@@ -198,7 +199,7 @@ h1 {
 }
 
   .folder-container {
-      width: 95%; /* Hampir penuh layar */
+      width: 100%; /* Hampir penuh layar */
       gap: 10px; /* Jarak minimal */
   }
 
@@ -211,13 +212,15 @@ h1 {
   }
 
   .doc-org-container {
-      width: 90%; /* Hampir penuh layar */
-      padding: 20px; /* Kurangi padding */
+      width: 60%; /* Hampir penuh layar */
+      padding: 25px; /* Kurangi padding */
       gap: 8px;
+      align-items: center;
+      margin-left: 80px;
   }
 
   .doc-org-container img {
-      width: 200px; /* Gambar lebih kecil */
+      width: 300px; /* Gambar lebih kecil */
   }
 
   .text p {

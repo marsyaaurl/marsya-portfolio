@@ -102,12 +102,13 @@
   }
 
   .doc-gra-container {
-      width: 80%; /* Kurangi lebar kontainer */
+      width: 60%; /* Kurangi lebar kontainer */
       flex-direction: column; /* Susun elemen secara vertikal */
       align-items: center; /* Pusatkan konten */
       gap: 8px;
       padding: 20px;
       justify-content: center;
+      margin-left: 160px;
   }
 
   .doc-gra-container img {
@@ -155,9 +156,10 @@
   }
 
   .doc-gra-container {
-      width: 80%; /* Hampir penuh layar */
+      width: 60%; /* Hampir penuh layar */
       padding: 20px; /* Kurangi padding */
       gap: 8px;
+      margin-left: 95px;
   }
 
   .doc-gra-container img {
