@@ -141,6 +141,7 @@ h1 {
 .opening h1 {
     font-size: 60px;
     text-align: center;
+    margin-left: 30px;
 }
 
   .folder-container {
@@ -153,6 +154,7 @@ h1 {
   }
 
   .title h2 {
+      margin-left: 23px;
       font-size: 40px; /* Perkecil heading */
   }
 
@@ -191,10 +193,11 @@ h1 {
 
 @media screen and (max-width: 480px) {
   .opening {
-    margin: 200px auto; /* Margin atas lebih besar untuk layar lebih kecil */
+    margin: 200px;
 }
 
 .opening h1 {
+    margin-left: 30px;
     font-size: 50px;
 }
 
@@ -208,6 +211,7 @@ h1 {
   }
 
   .title h2 {
+      margin-left: 23px;
       font-size: 30px; /* Heading lebih kecil */
   }
 

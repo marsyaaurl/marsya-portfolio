@@ -86,6 +86,7 @@
 .opening h1 {
     font-size: 60px;
     text-align: center;
+    margin-left: 30px;
 }
 
   .folder-container {
@@ -99,6 +100,7 @@
 
   .title h2 {
       font-size: 40px; /* Perkecil heading */
+      margin-left: 23px;
   }
 
   .doc-gra-container {
@@ -152,7 +154,8 @@
   }
 
   .title h2 {
-      font-size: 30px; /* Heading lebih kecil */
+      font-size: 30px;
+      margin-left: 23px;
   }
 
   .doc-gra-container {
