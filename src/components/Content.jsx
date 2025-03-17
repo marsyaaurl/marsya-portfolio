@@ -57,16 +57,16 @@ function Content() {
       <div className="mt-20 mx-5 p-6 md:p-12 overflow-hidden">
         <p className="text-black text-2xl xs:text-3xl md:text-4xl font-black">projects</p>
         <div className="flex flex-row gap-4 overflow-x-auto mt-8 no-scrollbar pl-8 pr-0">
-          <a href="https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1?node-id=1-3&t=aTIL2ZUAT5dLRG61-6"><img src={StepIn} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
-          <a href="https://www.instagram.com/androidupnvj/"><img src={Andro} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
-          <a href="https://github.com/marsyaaurl/Georgia_OKeeffe"><img src={webPorto} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
-          <a href="https://www.instagram.com/himas1siupnvj/"><img src={HIMA} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1?node-id=1-3&t=aTIL2ZUAT5dLRG61-6" target="_blank"><img src={StepIn} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://www.instagram.com/androidupnvj/" target="_blank"><img src={Andro} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://github.com/marsyaaurl/Georgia_OKeeffe" target="_blank"><img src={webPorto} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://www.instagram.com/himas1siupnvj/" target="_blank"><img src={HIMA} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
         </div>
 
         <div className="flex flex-row gap-4 overflow-x-auto mt-8 no-scrollbar pl-8 pr-0">
-          <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl?node-id=0-1&t=aTIL2ZUAT5dLRG61-6"><img src={pawshop} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
-          <a href="https://github.com/marsyaaurl/Trax"><img src={Trax} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
-          <a href="https://www.instagram.com/pkkmbfikupnvj/"><img src={PKKMB} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl?node-id=0-1&t=aTIL2ZUAT5dLRG61-6" target="_blank"><img src={pawshop} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://github.com/marsyaaurl/Trax" target="_blank"><img src={Trax} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://www.instagram.com/pkkmbfikupnvj/" target="_blank"><img src={PKKMB} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
           <a href=""><img src={Merch} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
         </div>
       </div>
