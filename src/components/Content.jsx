@@ -7,7 +7,7 @@ import Trax from "../assets/Trax.png";
 import StepIn from "../assets/StepIn.png";
 import PKKMB from "../assets/PKKMB.png";
 import pawshop from "../assets/pawshop.png";
-import Merch from "../assets/MerchHima.png";
+import Merch from "../assets/MerchHIMA.png";
 import HIMA from "../assets/HIMA.png";
 import Andro from "../assets/Andro.png";
 
