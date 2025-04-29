@@ -54,7 +54,7 @@ function Content() {
           </div>
         </div>
       </div>
-      <div className="mt-20 mx-5 p-6 md:p-12 mb-0 overflow-hidden">
+      <div className="mt-20 mx-5 p-6 md:p-12S overflow-hidden">
         <p className="text-black text-2xl xs:text-5xl md:text-4xl font-black">projects</p>
         <div className="flex flex-row gap-4 overflow-x-auto mt-12 no-scrollbar pl-8 pr-0">
           <a href="https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1?node-id=1-3&t=aTIL2ZUAT5dLRG61-6" target="_blank"><img src={StepIn} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
