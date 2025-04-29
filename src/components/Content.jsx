@@ -10,6 +10,7 @@ import pawshop from "../assets/pawshop.png";
 import Merch from "../assets/MerchHIMA.png";
 import HIMA from "../assets/HIMA.png";
 import Andro from "../assets/Andro.png";
+import CrisEase from "../assets/CrisEase.png";
 
 function Content() {
   const roles = ["Graphic Designer", "Web Developer", "UI/UX Designer"];
@@ -68,6 +69,7 @@ function Content() {
           <a href="https://github.com/marsyaaurl/Trax" target="_blank"><img src={Trax} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
           <a href="https://www.instagram.com/pkkmbfikupnvj/" target="_blank"><img src={PKKMB} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
           <a href=""><img src={Merch} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
+          <a href="https://www.figma.com/proto/1zQV617Tn81PvlYRxe3Och/Workspace?node-id=70-720&t=KuN5xzhNkwvUh9G2-1sss" target="_blank"s><img src={CrisEase} className="h-32 xs:h-40 md:h-56 object-contain" /></a>
         </div>
       </div>
     </>
