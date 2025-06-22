@@ -7,14 +7,14 @@ import Projects from './components/Projects';
 function App() {
   return (
     <BrowserRouter>
-    <nav className='flex w-full items-center fixed text-whitefont text-xl gap-x-[1220px] font-semibold px-10 py-6'>
+    {/* <nav className='flex w-full items-center fixed text-whitefont text-xl font-semibold px-10 py-6'>
       <a href='/' className='text-whitefont font-krona'>marsya</a>
       <div className='flex gap-x-10'>
         <a href=''>About</a>
         <a href=''>Projects</a>
         <a href=''>Contacts</a>
       </div>
-    </nav>
+    </nav> */}
       {/* <nav className='rounded-full bg-mainblue w-fit p-4 flex gap-4 fixed bottom-4 left-1/2 -translate-x-1/2 shadow-lg'>
         <a href='https://github.com/marsyaaurl' target='_blank' className='px-2 py-1'><i className='fa-brands fa-github text-white text-3xl'></i></a>
         <a href='https://instagram.com/marsyaaurl' target='_blank' className='px-2 py-1'><i className='fa-brands fa-instagram text-white text-3xl'></i></a>
