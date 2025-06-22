@@ -35,7 +35,7 @@ function LandingPage() {
                 <MoveRight className="ml-auto text-mainblue" />
               </div>
             </a>
-            <a href="/Contacts">
+            <a href="#contacts">
               <div className="flex w-[300px] md:w-[600px] border-2 text-secondgreen text-sm md:text-xl font-semibold border-secondgreen rounded-2xl px-5 py-2 md:py-4 items-center hover:border-gray-400 hover:text-gray-400">
                 <h2>Can I reach you out by any chance?</h2>
                 <MoveRight className="ml-auto text-secondgreen" />
@@ -52,7 +52,7 @@ function LandingPage() {
                     love translating ideas into user-friendly interfaces with Figma. I'm always eager to learn, 
                     collaborate, and grow through real-world projects.
                 </p>
-                <div className="flex flex-row gap-x-3 w-full">
+                <div className="flex flex-row gap-x-3 w-full" id="contacts">
                     <a href="https://github.com/marsyaaurl" target="_blank">
                         <div className="flex flex-row gap-x-2 items-center rounded-full px-3 py-1 bg-whitefont hover:bg-gray-400">
                             <i className="fa-brands fa-github text-background text-2xl bg-transparent"></i>
