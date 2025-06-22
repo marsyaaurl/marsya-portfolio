@@ -1,4 +1,4 @@
-import StepIn from "../assets/stepin.png";
+import StepIn from "../assets/StepIn.png";
 import Bayicara from "../assets/bayicara.png";
 import Trax from "../assets/Trax.png";
 import CrisEase from "../assets/CrisEase.png";
