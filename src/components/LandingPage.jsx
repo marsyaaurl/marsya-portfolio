@@ -35,7 +35,7 @@ function LandingPage() {
                 <MoveRight className="ml-auto text-mainblue" />
               </div>
             </a>
-            <a href="#contacts">
+            <a href="#about">
               <div className="flex w-[300px] md:w-[600px] border-2 text-secondgreen text-sm md:text-xl font-semibold border-secondgreen rounded-2xl px-5 py-2 md:py-4 items-center hover:border-gray-400 hover:text-gray-400">
                 <h2>Can I reach you out by any chance?</h2>
                 <MoveRight className="ml-auto text-secondgreen" />
