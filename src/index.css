@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 * {
-    font-family: Plus Jakarta Sans;
+    font-family: Manrope;
+    background-color: #1e1e1e;
 }

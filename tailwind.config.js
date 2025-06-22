@@ -6,16 +6,23 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        krona: ['"Krona One"', 'sans-serif'],
+        manrope: ['"Manrope"', 'sans-serif'],
+      },
+
       screens: {
         xs: "480px",
       },
+
       colors: {
-        background: "#FAFAFA",
-        mainblue: "#155FCB",
-        secondgreen: "#12A354",
+        background: "#1E1E1E",
+        mainblue: "#71A6F2",
+        secondgreen: "#70E9A7",
         thirdred: "#F30916",
         thirdyellow: "#F3E398",
-        thirdpink: "#FCA4E0",
+        thirdpink: "#FFB9E9",
+        whitefont: "#E0E0E0"
       }
     },
   },
