@@ -36,7 +36,7 @@ function LandingPage() {
                 <MoveRight className="ml-auto text-mainblue" />
               </div>
             </a>
-            <a href="#about">
+            <a href="#certifications">
               <div className="flex w-[300px] md:w-[600px] border-2 text-secondgreen text-sm md:text-xl font-semibold border-secondgreen rounded-2xl px-5 py-2 md:py-4 items-center hover:border-gray-400 hover:text-gray-400">
                 <h2>Any certifications?</h2>
                 <MoveRight className="ml-auto text-secondgreen" />
@@ -218,7 +218,7 @@ function LandingPage() {
                 </a>
             </div>
         </div>
-        <div className="flex flex-col px-5 md:px-10 md:py-20 gap-y-5">
+        <div className="flex flex-col px-5 md:px-10 md:py-20 gap-y-5" id="certifications">
             <h1 className="text-whitefont text-xl md:text-4xl font-bold">Certifications</h1>
             <div className="flex flex-row gap-x-6 overflow-x-auto scrollbar-thin pb-4">
                 <div className="flex flex-row w-fit min-w-[600px] bg-thirdpink rounded-3xl px-5 py-7 items-center justify-start">
