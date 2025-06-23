@@ -1,8 +1,5 @@
 import "../App.css";
 import { MoveRight } from "lucide-react";
-import { Link } from "react-router-dom";
-import About from "./About";
-import Projects from "./Projects";
 import StepIn from "../assets/StepIn.png";
 import Bayicara from "../assets/bayicara.png";
 import Trax from "../assets/Trax.png";
@@ -11,6 +8,10 @@ import Georgia from "../assets/webPorto.png";
 import NutriSee from "../assets/NutriSee.png";
 import ShuffleBattle from "../assets/shufflebattle.png";
 import PawShop from "../assets/pawshop.png";
+import SertifMage from "../assets/SertifMage.png";
+import SertifWeb from "../assets/SertifWeb.png";
+import SertifArkav from "../assets/SertifArkav.png";
+import SertifTFS from "../assets/SertifTFS.png";
 
 function LandingPage() {
   return (
@@ -99,7 +100,7 @@ function LandingPage() {
                 </div>
             </div>
           </div>
-        <div className="flex flex-col px-5 md:px-10 md:py-20 gap-y-5  overflow-auto no-scrollbar" id="projects">
+        <div className="flex flex-col px-5 md:px-10 md:py-20 gap-y-5 overflow-x-auto" id="projects">
             <h1 className="text-whitefont text-xl md:text-4xl font-bold">Projects</h1>
             <div className="flex md:flex-row gap-x-5">
                 <a href="https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1?node-id=1-3&t=ToIK8zJolOowd7UC-6">
@@ -215,6 +216,50 @@ function LandingPage() {
                         </div>
                     </div>
                 </a>
+            </div>
+        </div>
+        <div className="flex flex-col px-5 md:px-10 md:py-20 gap-y-5">
+            <h1 className="text-whitefont text-xl md:text-4xl font-bold">Certifications</h1>
+            <div className="flex flex-row gap-x-6 overflow-x-auto scrollbar-thin pb-4">
+                <div className="flex flex-row w-fit min-w-[600px] bg-thirdpink rounded-3xl px-5 py-7 items-center justify-start">
+                    <img src={SertifMage} className="rounded-xl h-56 w-auto" />
+                    <div className="bg-transparent flex flex-col gap-y-2 ml-5 max-w-sm">
+                        <h3 className="bg-transparent font-black text-xl text-background">MAGE X ITS 2024 UI/UX Competition</h3>
+                        <p className="bg-transparent text-md text-background text-justify">
+                            Designed an inclusive route-finding mobile interface for individuals with disabilities. Focused on accessibility, clarity, and seamless navigation experience using Figma prototypes and user-centered design principles.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-row w-fit min-w-[600px] bg-secondgreen rounded-3xl px-5 py-7 items-center justify-start">
+                <img src={SertifWeb} className="rounded-xl h-56 w-auto" />
+                <div className="bg-transparent flex flex-col gap-y-2 ml-5 max-w-sm">
+                    <h3 className="bg-transparent font-black text-xl text-background">Web Dev Bootcamp 2024</h3>
+                    <p className="bg-transparent text-md text-background text-justify">
+                    Learned front-end fundamentals with React.js. Developed a portfolio website using React and Tailwind CSS.
+                    </p>
+                </div>
+                </div>
+
+                <div className="flex flex-row w-fit min-w-[600px] bg-mainblue rounded-3xl px-5 py-7 items-center justify-start">
+                <img src={SertifArkav} className="rounded-xl h-56 w-auto" />
+                <div className="bg-transparent flex flex-col gap-y-2 ml-5 max-w-sm">
+                    <h3 className="bg-transparent font-black text-xl text-background">Arkavidia UX Design Challenge</h3>
+                    <p className="bg-transparent text-md text-background text-justify">
+                    Designed a mobile UI concept for early disaster detection. Emphasized accessible alert systems and clear interfaces to support fast and safe user response.
+                    </p>
+                </div>
+                </div>
+
+                <div className="flex flex-row w-fit min-w-[600px] bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-start">
+                <img src={SertifTFS} className="rounded-xl h-56 w-auto" />
+                <div className="bg-transparent flex flex-col gap-y-2 ml-5 max-w-sm">
+                    <h3 className="bg-transparent font-black text-xl text-background">Tech For Society 2025</h3>
+                    <p className="bg-transparent text-md text-background text-justify">
+                    Delivered an introductory session on UI/UX design for 10th-grade high school students. Covered basic principles of user-centered design and guided students through simple hands-on prototyping with Figma.
+                    </p>
+                </div>
+                </div>
             </div>
         </div>
       </div>
