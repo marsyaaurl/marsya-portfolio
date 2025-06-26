@@ -72,11 +72,11 @@ function LandingPage() {
                             <p className="text-background text-md font-semibold bg-transparent">Instagram</p>
                         </div>
                     </a>
-                    <a href="https://drive.google.com/file/d/1jKBCy0IZKHxsrFzqgsLt5_zEpTDb6W-N/view?usp=sharing" target="_blank" download>
+                    <a href="https://drive.google.com/file/d/1-qVIfq2VNj1VzvlMkqgQHvdXSqsNQzKE/view?usp=sharing" target="_blank" download>
                         <button className="bg-mainblue text-whitefont hidden md:block font-bold hover:bg-gray-400 rounded-full px-5 py-2 text-md w-fit">Download CV</button>
                     </a>
                 </div>
-                <a href="https://drive.google.com/file/d/1jKBCy0IZKHxsrFzqgsLt5_zEpTDb6W-N/view?usp=sharing" target="_blank" download>
+                <a href="https://drive.google.com/file/d/1-qVIfq2VNj1VzvlMkqgQHvdXSqsNQzKE/view?usp=sharing" target="_blank" download>
                     <button className="bg-mainblue text-whitefont font-bold hover:bg-gray-400 rounded-full px-5 py-2 text-md w-fit md:hidden">Download CV</button>
                 </a>
             </div>
