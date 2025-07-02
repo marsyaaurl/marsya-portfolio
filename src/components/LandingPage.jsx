@@ -12,6 +12,7 @@ import SertifMage from "../assets/SertifMage.png";
 import SertifWeb from "../assets/SertifWeb.png";
 import SertifArkav from "../assets/SertifArkav.png";
 import SertifTFS from "../assets/SertifTFS.png";
+import SeaCatering from "../assets/SeaCatering.png";
 
 function LandingPage() {
   return (
@@ -144,13 +145,14 @@ function LandingPage() {
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
                         <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center">
                             <img src={Trax} className="bg-transparent h-auto"/>
-                            <h3 className="bg-transparent font-black text-xl text-center">Trax – Productivity Web App</h3>
+                            <h3 className="bg-transparent font-black text-xl text-center">Sea - Catering Web App</h3>
                             <h4 className="font-semibold text-lg bg-blue-600 px-3 rounded-full">Fullstack Developer</h4>
-                            <p className="bg-transparent text-md text-justify">Trax is a single-page productivity 
-                                app combining task tracking and note-taking for students. I designed and developed 
-                                the UI using React.js and Tailwind CSS, and built the backend using Express.js to 
-                                handle API routes and data management. I implemented dynamic components and RESTful 
-                                endpoints to help users manage their academic responsibilities more efficiently.
+                            <p className="bg-transparent text-md text-justify">SEA Catering is a healthy meal 
+                                subscription service that provides nutritious and balanced daily meals tailored to 
+                                different lifestyle needs. With options like diet plans, protein plans, and royal 
+                                plans, SEA Catering helps customers maintain a healthy eating routine without the 
+                                hassle of cooking. Meals are delivered straight to their door, making it a 
+                                convenient choice for those seeking both health and simplicity in their daily diet.
                             </p>
                             <a href="https://github.com/marsyaaurl/Trax" className="bg-transparent w-full">
                                 <button className="bg-blue-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-blue-500">See Details</button>
@@ -228,18 +230,36 @@ function LandingPage() {
                         </div>
                     </div>
                 </a>
+                <a href="https://github.com/marsyaaurl/Traxhttps://github.com/marsyaaurl/Trax">
+                    <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
+                        <div className="flex flex-col gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center">
+                            <img src={Trax} className="bg-transparent h-auto"/>
+                            <h3 className="bg-transparent font-black text-xl text-center">Trax – Productivity Web App</h3>
+                            <h4 className="font-semibold text-lg bg-yellow-500 px-3 rounded-full">Fullstack Developer</h4>
+                            <p className="bg-transparent text-md text-justify">Trax is a single-page productivity 
+                                app combining task tracking and note-taking for students. I designed and developed 
+                                the UI using React.js and Tailwind CSS, and built the backend using Express.js to 
+                                handle API routes and data management. I implemented dynamic components and RESTful 
+                                endpoints to help users manage their academic responsibilities more efficiently.
+                            </p>
+                            <a href="https://github.com/marsyaaurl/Trax" className="bg-transparent w-full">
+                                <button className="bg-yellow-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-blue-500">See Details</button>
+                            </a>
+                        </div>
+                    </div>
+                </a>
                 <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl/Prototype-Paw-Shop?node-id=19-4&starting-point-node-id=1%3A4&t=EHbZpyPycIb1N3Rd-1">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center">
                             <img src={PawShop} className="bg-transparent h-72 w-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Pawshop – Pet Store UI Design</h3>
-                            <h4 className="font-semibold text-lg bg-yellow-500 px-3 rounded-full">UI/UX Designer</h4>
+                            <h4 className="font-semibold text-lg bg-pink-500 px-3 rounded-full">UI/UX Designer</h4>
                             <p className="bg-transparent text-md text-justify">I designed an intuitive mobile 
                                 e-commerce interface for a fictional pet supply shop. Using Figma, I created 
                                 wireframes and high-fidelity designs that emphasized user journey, consistency, 
                                 and accessibility.</p>
                             <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl/Prototype-Paw-Shop?node-id=19-4&starting-point-node-id=1%3A4&t=EHbZpyPycIb1N3Rd-1" className="bg-transparent w-full">
-                                <button className="bg-yellow-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-yellow-400">See Details</button>
+                                <button className="bg-pink-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-yellow-400">See Details</button>
                             </a>
                         </div>
                     </div>
