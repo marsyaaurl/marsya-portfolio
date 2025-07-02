@@ -110,7 +110,7 @@ function LandingPage() {
             <div className="flex md:flex-row gap-x-5">
                 <a href="https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1?node-id=1-3&t=ToIK8zJolOowd7UC-6">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={StepIn} className="bg-transparent h-72 w-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">StepIn — Inclusive Route-Finding App</h3>
                             <h4 className="font-semibold text-lg bg-pink-500 px-3 rounded-full text-whitefont">UI/UX Designer</h4>
@@ -126,7 +126,7 @@ function LandingPage() {
                 </a>
                 <a href="https://bayicara.vercel.app/">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={Bayicara} className="bg-transparent h-auto rounded-xl"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Bayicara – AI-Powered Speech Stimulation Web App</h3>
                             <h4 className="font-semibold text-lg bg-green-600 px-3 rounded-full">Front-End Developer</h4>
@@ -143,7 +143,7 @@ function LandingPage() {
                 </a>
                 <a href="https://sea-catering-phi.vercel.app/">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={SeaCatering} className="bg-transparent rounded-lg h-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Sea - Catering Web App</h3>
                             <h4 className="font-semibold text-lg bg-blue-600 px-3 rounded-full">Fullstack Developer</h4>
@@ -162,7 +162,7 @@ function LandingPage() {
                 </a>
                 <a href="https://www.figma.com/proto/v10afGJelWMBymkp1Yp6rr/Workspace?node-id=758-6655&p=f&t=4gIjphUjTcuRisP6-1&scaling=scale-down&content-scaling=fixed&page-id=605%3A7461&starting-point-node-id=609%3A7546&show-proto-sidebar=1">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={NutriSee} className="bg-transparent h-72 w-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">NutriSee – School Nutrition Scan App</h3>
                             <h4 className="font-semibold text-lg bg-yellow-500 px-3 rounded-full">UI/UX Designer</h4>
@@ -181,7 +181,7 @@ function LandingPage() {
                 </a>
                 <a href="https://www.figma.com/proto/1zQV617Tn81PvlYRxe3Och/Workspace?node-id=242-136&starting-point-node-id=241%3A910&t=flnDJBFqYL4pHPbJ-1">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={CrisEase} className="bg-transparent h-72 w-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Crisease – Disaster Prediction UI App</h3>
                             <h4 className="font-semibold text-lg bg-pink-500 px-3 rounded-full">UI/UX Designer</h4>
@@ -197,7 +197,7 @@ function LandingPage() {
                 </a>
                 <a href="https://github.com/marsyaaurl/Georgia_OKeeffe">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={Georgia} className="bg-transparent h-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Georgia O'Keeffe Artist Portfolio Website</h3>
                             <h4 className="font-semibold text-lg bg-green-600 px-3 rounded-full">Front-End Developer</h4>
@@ -214,7 +214,7 @@ function LandingPage() {
                 </a>
                 <a href="https://shuffle-battle.vercel.app/">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={ShuffleBattle} className="bg-transparent h-auto rounded-xl"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Shuffle Battle – Spotify Playlist Comparator Web App</h3>
                             <h4 className="font-semibold text-lg bg-blue-600 px-3 rounded-full">Front-End Developer</h4>
@@ -232,7 +232,7 @@ function LandingPage() {
                 </a>
                 <a href="https://github.com/marsyaaurl/Traxhttps://github.com/marsyaaurl/Trax">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={Trax} className="bg-transparent h-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Trax – Productivity Web App</h3>
                             <h4 className="font-semibold text-lg bg-yellow-500 px-3 rounded-full">Fullstack Developer</h4>
@@ -250,7 +250,7 @@ function LandingPage() {
                 </a>
                 <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl/Prototype-Paw-Shop?node-id=19-4&starting-point-node-id=1%3A4&t=EHbZpyPycIb1N3Rd-1">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
-                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center">
+                        <div className="flex flex-col h-fit gap-y-2 w-96 bg-thirdpink rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={PawShop} className="bg-transparent h-72 w-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Pawshop – Pet Store UI Design</h3>
                             <h4 className="font-semibold text-lg bg-pink-500 px-3 rounded-full">UI/UX Designer</h4>
