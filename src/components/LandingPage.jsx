@@ -144,7 +144,7 @@ function LandingPage() {
                 <a href="https://github.com/marsyaaurl/Traxhttps://github.com/marsyaaurl/Trax">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
                         <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center">
-                            <img src={Trax} className="bg-transparent h-auto"/>
+                            <img src={SeaCatering} className="bg-transparent h-auto"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Sea - Catering Web App</h3>
                             <h4 className="font-semibold text-lg bg-blue-600 px-3 rounded-full">Fullstack Developer</h4>
                             <p className="bg-transparent text-md text-justify">SEA Catering is a healthy meal 
