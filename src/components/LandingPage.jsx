@@ -141,7 +141,7 @@ function LandingPage() {
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/marsyaaurl/Traxhttps://github.com/marsyaaurl/Trax">
+                <a href="https://sea-catering-phi.vercel.app/">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
                         <div className="flex flex-col gap-y-2 w-96 bg-mainblue rounded-3xl px-5 py-7 items-center justify-center">
                             <img src={SeaCatering} className="bg-transparent rounded-lg h-auto"/>
