@@ -161,7 +161,7 @@ function LandingPage() {
                                         <img src={Next} className="bg-transparent w-[50px] h-auto" />
                                         <p className="bg-transparent text-sm font-medium">Next.js</p>
                                     </div>
-                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
                                         <img src={React} className="bg-transparent w-[50px] h-auto" />
                                         <p className="bg-transparent text-sm font-medium">React</p>
                                     </div>
@@ -193,11 +193,11 @@ function LandingPage() {
                             <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
                                 <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
                                 <div className="bg-transparent flex flex-row items-start gap-x-3">
-                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
                                         <img src={Next} className="bg-transparent w-[50px] h-auto" />
                                         <p className="bg-transparent text-sm font-medium">Next.js</p>
                                     </div>
-                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
                                         <img src={React} className="bg-transparent w-[50px] h-auto" />
                                         <p className="bg-transparent text-sm font-medium">React</p>
                                     </div>
