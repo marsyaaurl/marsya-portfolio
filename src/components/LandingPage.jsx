@@ -13,6 +13,16 @@ import SertifWeb from "../assets/SertifWeb.png";
 import SertifArkav from "../assets/SertifArkav.png";
 import SertifTFS from "../assets/SertifTFS.png";
 import SeaCatering from "../assets/SeaCatering.png";
+import Next from "../assets/next-js.svg";
+import Figma from "../assets/figma.png";
+import Gemini from "../assets/gemini.webp";
+import Supabase from "../assets/supabase.png";
+import React from "../assets/React.webp";
+import Laravel from "../assets/laravel.png";
+import PHP from "../assets/php.png";
+import mysql from "../assets/mysql.png";
+import Spotify from "../assets/spotify.png";
+import Express from "../assets/express-js.png";
 
 function LandingPage() {
   return (
@@ -118,6 +128,15 @@ function LandingPage() {
                                 disabilities. I designed a mobile-first application by conducting user research, developing 
                                 personas, creating user flows, and building a high-fidelity prototype in Figma. The project 
                                 won 3rd Place in the MAGE X ITS 2024 UI/UX Competition.</p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Figma} className="bg-transparent w-[30px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1?node-id=1-3&t=ToIK8zJolOowd7UC-6" className="bg-transparent w-full">
                                 <button className="bg-pink-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-pink-400">See Details</button>
                             </a>
@@ -135,6 +154,23 @@ function LandingPage() {
                                 and Tailwind CSS, integrated Gemini AI API to generate personalized stories, and deployed 
                                 the app on Vercel. The app also features a milestone-based speech delay detection survey.
                             </p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                        <img src={Next} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Next.js</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                        <img src={React} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">React</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Gemini} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Gemini AI API</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://bayicara.vercel.app/" className="bg-transparent w-full">
                                 <button className="bg-green-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-green-500">See Details</button>
                             </a>
@@ -154,6 +190,23 @@ function LandingPage() {
                                 hassle of cooking. Meals are delivered straight to their door, making it a 
                                 convenient choice for those seeking both health and simplicity in their daily diet.
                             </p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                        <img src={Next} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Next.js</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-start justify-center">
+                                        <img src={React} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">React</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Supabase} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Supabase</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://github.com/marsyaaurl/Trax" className="bg-transparent w-full">
                                 <button className="bg-blue-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-blue-500">See Details</button>
                             </a>
@@ -173,6 +226,15 @@ function LandingPage() {
                                 using image recognition to assess nutritional value (calories, macronutrients) and report 
                                 unfit food anonymously. It also features daily consumption history and parental monitoring 
                                 to promote transparency and healthier eating habits at school.</p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Figma} className="bg-transparent w-[30px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://www.figma.com/proto/v10afGJelWMBymkp1Yp6rr/Workspace?node-id=758-6655&p=f&t=4gIjphUjTcuRisP6-1&scaling=scale-down&content-scaling=fixed&page-id=605%3A7461&starting-point-node-id=609%3A7546&show-proto-sidebar=1" className="bg-transparent w-full">
                                 <button className="bg-yellow-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-yellow-400">See Details</button>
                             </a>
@@ -189,6 +251,15 @@ function LandingPage() {
                                 early disaster detection. I designed its interface and alert features with Figma, 
                                 focusing on clarity and accessibility to help users respond quickly and safely to 
                                 natural disaster risks.</p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Figma} className="bg-transparent w-[30px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://www.figma.com/proto/1zQV617Tn81PvlYRxe3Och/Workspace?node-id=242-136&starting-point-node-id=241%3A910&t=flnDJBFqYL4pHPbJ-1" className="bg-transparent w-full">
                                 <button className="bg-pink-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-pink-400">See Details</button>
                             </a>
@@ -206,6 +277,23 @@ function LandingPage() {
                                 artwork gallery, and exhibition listings, offering an engaging way to explore the artist’s 
                                 legacy.
                             </p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Laravel} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Laravel</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={PHP} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">PHP</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={mysql} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">MySQL</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://github.com/marsyaaurl/Georgia_OKeeffe" className="bg-transparent w-full">
                                 <button className="bg-green-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-green-500">See Details</button>
                             </a>
@@ -224,13 +312,26 @@ function LandingPage() {
                                 API to fetch playlist data and calculate metrics such as popularity scores, track counts, 
                                 and artist overlaps.
                             </p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={React} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">React</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Spotify} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Spotify Web API</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://shuffle-battle.vercel.app/" className="bg-transparent w-full">
                                 <button className="bg-blue-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-blue-500">See Details</button>
                             </a>
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/marsyaaurl/Traxhttps://github.com/marsyaaurl/Trax">
+                <a href="https://github.com/marsyaaurl/Trax">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
                         <div className="flex flex-col gap-y-2 w-96 bg-thirdyellow rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={Trax} className="bg-transparent h-auto"/>
@@ -242,6 +343,23 @@ function LandingPage() {
                                 handle API routes and data management. I implemented dynamic components and RESTful 
                                 endpoints to help users manage their academic responsibilities more efficiently.
                             </p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={React} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">React</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Express} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Express.js</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={mysql} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">MySQL</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://github.com/marsyaaurl/Trax" className="bg-transparent w-full">
                                 <button className="bg-yellow-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-blue-500">See Details</button>
                             </a>
@@ -258,6 +376,15 @@ function LandingPage() {
                                 e-commerce interface for a fictional pet supply shop. Using Figma, I created 
                                 wireframes and high-fidelity designs that emphasized user journey, consistency, 
                                 and accessibility.</p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Figma} className="bg-transparent w-[30px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
                             <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl/Prototype-Paw-Shop?node-id=19-4&starting-point-node-id=1%3A4&t=EHbZpyPycIb1N3Rd-1" className="bg-transparent w-full">
                                 <button className="bg-pink-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-yellow-400">See Details</button>
                             </a>
