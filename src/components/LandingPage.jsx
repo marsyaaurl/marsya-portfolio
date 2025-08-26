@@ -395,7 +395,7 @@ function LandingPage() {
                 <a href="https://sahnam.vercel.app/">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
                         <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
-                            <img src={Sahnam} className="bg-transparent h-auto"/>
+                            <img src={Sahnam} className="bg-transparent h-auto rounded-md"/>
                             <h3 className="bg-transparent font-black text-xl text-center">Sahnam</h3>
                             <h4 className="font-semibold text-lg bg-green-600 px-3 rounded-full">Fullstack Developer</h4>
                             <p className="bg-transparent text-md text-justify">I developed a website 
@@ -407,16 +407,12 @@ function LandingPage() {
                                 <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
                                 <div className="bg-transparent flex flex-row items-start gap-x-3">
                                     <div className="bg-transparent flex flex-col items-center justify-center">
-                                        <img src={Laravel} className="bg-transparent w-[50px] h-auto" />
-                                        <p className="bg-transparent text-sm font-medium">Laravel</p>
+                                        <img src={Next} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Next</p>
                                     </div>
                                     <div className="bg-transparent flex flex-col items-center justify-center">
-                                        <img src={PHP} className="bg-transparent w-[50px] h-auto" />
-                                        <p className="bg-transparent text-sm font-medium">PHP</p>
-                                    </div>
-                                    <div className="bg-transparent flex flex-col items-center justify-center">
-                                        <img src={mysql} className="bg-transparent w-[50px] h-auto" />
-                                        <p className="bg-transparent text-sm font-medium">MySQL</p>
+                                        <img src={Supabase} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Supabase</p>
                                     </div>
                                 </div>
                             </div>
