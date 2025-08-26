@@ -23,6 +23,7 @@ import PHP from "../assets/php.png";
 import mysql from "../assets/mysql.png";
 import Spotify from "../assets/spotify.png";
 import Express from "../assets/express-js.png";
+import Sahnam from "../assets/Sahnam.png";
 
 function LandingPage() {
   return (
@@ -387,6 +388,40 @@ function LandingPage() {
                             </div>
                             <a href="https://www.figma.com/proto/Z9TBxDA9MS63Wrhi66n8Vl/Prototype-Paw-Shop?node-id=19-4&starting-point-node-id=1%3A4&t=EHbZpyPycIb1N3Rd-1" className="bg-transparent w-full">
                                 <button className="bg-pink-500 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-yellow-400">See Details</button>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/marsyaaurl/Georgia_OKeeffe">
+                    <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
+                        <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
+                            <img src={Sahnam} className="bg-transparent h-auto"/>
+                            <h3 className="bg-transparent font-black text-xl text-center">Sahnam</h3>
+                            <h4 className="font-semibold text-lg bg-green-600 px-3 rounded-full">Fullstack Developer</h4>
+                            <p className="bg-transparent text-md text-justify">I developed a website 
+                                    that allows society to invest in plants to support national food 
+                                    stability and improve farmers’ welfare. I built this website using 
+                                    Next.js and Supabase.
+                            </p>
+                            <div className="flex flex-col bg-transparent items-start text-left gap-y-2 w-full">
+                                <p className="font-semibold bg-transparent text-lg self-start">Tech Stack:</p>
+                                <div className="bg-transparent flex flex-row items-start gap-x-3">
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={Laravel} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">Laravel</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={PHP} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">PHP</p>
+                                    </div>
+                                    <div className="bg-transparent flex flex-col items-center justify-center">
+                                        <img src={mysql} className="bg-transparent w-[50px] h-auto" />
+                                        <p className="bg-transparent text-sm font-medium">MySQL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="https://github.com/marsyaaurl/Georgia_OKeeffe" className="bg-transparent w-full">
+                                <button className="bg-green-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-green-500">See Details</button>
                             </a>
                         </div>
                     </div>
