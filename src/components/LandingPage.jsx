@@ -392,7 +392,7 @@ function LandingPage() {
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/marsyaaurl/Georgia_OKeeffe">
+                <a href="https://sahnam.vercel.app/">
                     <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
                         <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center hover:scale-105">
                             <img src={Sahnam} className="bg-transparent h-auto"/>
@@ -420,7 +420,7 @@ function LandingPage() {
                                     </div>
                                 </div>
                             </div>
-                            <a href="https://github.com/marsyaaurl/Georgia_OKeeffe" className="bg-transparent w-full">
+                            <a href="https://sahnam.vercel.app/" className="bg-transparent w-full">
                                 <button className="bg-green-600 px-3 py-1 rounded-xl font-semibold text-xl text-center text-whitefont w-full hover:bg-green-500">See Details</button>
                             </a>
                         </div>
