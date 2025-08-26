@@ -6,6 +6,7 @@ import Georgia from "../assets/webPorto.png";
 import NutriSee from "../assets/NutriSee.png";
 import ShuffleBattle from "../assets/shufflebattle.png";
 import PawShop from "../assets/pawshop.png";
+import Sahnam from "../assets/Sahnam.png";
 
 function Projects() {
     return(
@@ -108,6 +109,18 @@ function Projects() {
                                 e-commerce interface for a fictional pet supply shop. Using Figma, I created 
                                 wireframes and high-fidelity designs that emphasized user journey, consistency, 
                                 and accessibility.</p>
+                        </div>
+                    </div>
+                    <div className="flex-none flex-col md:flex-row gap-x-5 h-fit">
+                        <div className="flex flex-col gap-y-2 w-96 bg-secondgreen rounded-3xl px-5 py-7 items-center justify-center">
+                            <img src={Sahnam} className="bg-transparent h-auto"/>
+                            <h3 className="bg-transparent font-black text-xl text-center">Sahnam</h3>
+                                <h4 className="bg-transparent font-semibold text-lg bg-green-600 px-3 rounded-full">Fullstack Developer</h4>
+                                <p className="bg-transparent text-md text-justify">I developed a website 
+                                    that allows society to invest in plants to support national food 
+                                    stability and improve farmers’ welfare. I built this website using 
+                                    Next.js and Supabase.
+                                </p>
                         </div>
                     </div>
                 </div>
