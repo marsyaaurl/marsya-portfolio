@@ -74,7 +74,7 @@ function Hero() {
             </p>
 
             {/* Socials & Download CV */}
-            <div className="flex flex-wrap gap-2.5 items-center">
+            <div className="flex flex-wrap gap-1 items-center">
               <a
                 href="https://github.com/marsyaaurl"
                 target="_blank"
@@ -116,7 +116,7 @@ function Hero() {
                 href="https://drive.google.com/file/d/1ozXYj4bwR2pdSmDh_PTozL32IiBixaPz/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary-foreground text-white hover:bg-primary transition-colors font-bold text-xs shadow-sm"
+                className="flex items-center gap-1.5 px-2 py-2 rounded-full bg-primary-foreground text-white hover:bg-primary transition-colors font-bold text-xs shadow-sm"
               >
                 <Download size={14} />
                 <span>Download CV</span>

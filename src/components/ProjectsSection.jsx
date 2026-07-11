@@ -28,20 +28,23 @@ function ProjectsSection() {
           <span className="text-md font-bold tracking-wider text-muted-foreground">My Creative Output</span>
         </div>
 
-        {/* Filter Tabs */}
-        <div className="flex flex-wrap gap-2 glass-card p-1.5 rounded-full border border-white/50 w-fit">
-          {filters.map((filter) => (
-            <button
-              key={filter.id}
-              onClick={() => setActiveFilter(filter.id)}
-              className={`px-5 py-2 rounded-full text-xs md:text-sm font-bold transition-all duration-200 ${activeFilter === filter.id
-                ? 'bg-foreground text-background shadow-md'
-                : 'text-foreground/70 hover:text-foreground hover:bg-white/30'
+        {/* Filter Tabs scroll container */}
+        <div className="w-full md:w-auto overflow-x-auto no-scrollbar -mx-6 px-6 md:mx-0 md:px-0">
+          <div className="flex flex-row gap-2 glass-card p-1.5 rounded-2xl md:rounded-full border border-white/50 w-max md:w-fit">
+            {filters.map((filter) => (
+              <button
+                key={filter.id}
+                onClick={() => setActiveFilter(filter.id)}
+                className={`flex-shrink-0 px-5 py-2 rounded-full text-xs md:text-sm font-bold transition-all duration-200 ${
+                  activeFilter === filter.id
+                    ? 'bg-foreground text-background shadow-md'
+                    : 'text-foreground/70 hover:text-foreground hover:bg-white/30'
                 }`}
-            >
-              {filter.name}
-            </button>
-          ))}
+              >
+                {filter.name}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
