@@ -1,0 +1,275 @@
+[
+  {
+    "id": "1",
+    "title": "SIERA",
+    "role": "Frontend Developer",
+    "category": "frontend",
+    "image": "/images/siera.png",
+    "link": "https://siera.veterantech.id/",
+    "description": "SIERA is an integrated platform for information management, participant tracking, and certification built for PATRIBERA using React. It streamlines management workflows and user registrations.",
+    "tech": [
+      {
+        "name": "React",
+        "icon": "/images/react.svg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "SDN Joglo 05 Website",
+    "role": "Front-End Developer",
+    "category": "frontend",
+    "image": "/images/sdn5joglo.png",
+    "link": "https://sdnjoglo05.sch.id/id",
+    "description": "A modern and responsive school profile and management platform for SDN 5 Joglo. I developed the frontend using Next.js, building clean layouts, announcements grids, and informative dashboards to bridge communication between parents, students, and school administrators.",
+    "tech": [
+      {
+        "name": "Next.js",
+        "icon": "/images/next-js.svg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Dignition",
+    "role": "Backend Developer",
+    "category": "backend",
+    "image": "/images/dignition.png",
+    "link": "https://dignition.veterantech.id/",
+    "description": "Dignition is an internal LMS web platform for KSM Veterantech that supports Study Club activities. I co-developed the backend services enabling mentors and mentees to access learning materials, share updates, and manage academic learning activities using Hono.js.",
+    "tech": [
+      {
+        "name": "Hono.js",
+        "icon": "/images/hono.png"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "StepIn — Inclusive Route-Finding App",
+    "role": "UI/UX Designer",
+    "category": "uiux",
+    "image": "/images/StepIn.png",
+    "link": "https://www.figma.com/proto/eIcHyzZMf6uemWAMeNf4h1",
+    "description": "This project aimed to address the lack of inclusive route-finding tools for individuals with disabilities. I designed a mobile-first application by conducting user research, developing personas, creating user flows, and building a high-fidelity prototype in Figma. The project won 3rd Place in the MAGE X ITS 2024 UI/UX Competition.",
+    "tech": [
+      {
+        "name": "Figma",
+        "icon": "/images/figma.png"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Kelana",
+    "role": "UI/UX Designer",
+    "category": "uiux",
+    "image": "/images/kelana.png",
+    "link": "https://www.figma.com/proto/5N8VqO5XTuFImuxoof6GqR/Kelana---VWO-Workspace?node-id=1-3&t=RhN1oBTuYMXwvH1n-1",
+    "description": "Kelana is a travel exploration app focused on creating accessible and stress-free journeys through personalized, gamified itineraries, open-trip discovery, and immersive 360° virtual tours. Designed with a familiar, content-driven interface, it emphasizes transparency, inclusivity, and authentic travel experiences for modern travelers.",
+    "tech": [
+      {
+        "name": "Figma",
+        "icon": "/images/figma.png"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Sahnam",
+    "role": "Fullstack Developer",
+    "category": "fullstack",
+    "image": "/images/Sahnam.png",
+    "link": "https://sahnam.vercel.app/",
+    "description": "I developed a website that allows society to invest in plants to support national food stability and improve farmers' welfare. I built this website using Next.js and Supabase.",
+    "tech": [
+      {
+        "name": "Next.js",
+        "icon": "/images/next-js.svg"
+      },
+      {
+        "name": "Supabase",
+        "icon": "/images/supabase.png"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Sea Catering",
+    "role": "Fullstack Developer",
+    "category": "fullstack",
+    "image": "/images/SeaCatering.png",
+    "link": "https://sea-catering-phi.vercel.app/",
+    "description": "SEA Catering is a healthy meal subscription service that provides nutritious and balanced daily meals tailored to different lifestyle needs. With options like diet plans, protein plans, and royal plans, SEA Catering helps customers maintain a healthy eating routine without the hassle of cooking. Meals are delivered straight to their door, making it a convenient choice for those seeking both health and simplicity in their daily diet.",
+    "tech": [
+      {
+        "name": "Next.js",
+        "icon": "/images/next-js.svg"
+      },
+      {
+        "name": "React",
+        "icon": "/images/react.svg"
+      },
+      {
+        "name": "Supabase",
+        "icon": "/images/supabase.png"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Bayicara – AI Speech Stimulation App",
+    "role": "Front-End Developer",
+    "category": "frontend",
+    "image": "/images/bayicara.png",
+    "link": "https://bayicara.vercel.app/",
+    "description": "Bayicara helps parents support early speech development in toddlers. I developed the front-end of the web app using Next.js and Tailwind CSS, integrated Gemini AI API to generate personalized stories, and deployed the app on Vercel. The app also features a milestone-based speech delay detection survey.",
+    "tech": [
+      {
+        "name": "Next.js",
+        "icon": "/images/next-js.svg"
+      },
+      {
+        "name": "React",
+        "icon": "/images/react.svg"
+      },
+      {
+        "name": "Gemini",
+        "icon": "/images/gemini.webp"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "NutriSee",
+    "role": "UI/UX Designer",
+    "category": "uiux",
+    "image": "/images/NutriSee.png",
+    "link": "https://www.figma.com/",
+    "description": "NutriSee is a mobile-first nutrition monitoring app designed to support the Makan Bergizi Gratis (MBG) school meal program. I designed the UI using Figma through a user-centered approach involving surveys, empathy mapping, prototyping, and testing with Maze. The app allows students to scan school meals using image recognition to assess nutritional value (calories, macronutrients) and report unfit food anonymously. It also features daily consumption history and parental monitoring to promote transparency and healthier eating habits at school.",
+    "tech": [
+      {
+        "name": "Figma",
+        "icon": "/images/figma.png"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Crisease",
+    "role": "UI/UX Designer",
+    "category": "uiux",
+    "image": "/images/CrisEase.png",
+    "link": "https://www.figma.com/",
+    "description": "Crisease is a conceptual mobile UI for early disaster detection. I designed its interface and alert features with Figma, focusing on clarity and accessibility to help users respond safely to natural disaster risks.",
+    "tech": [
+      {
+        "name": "Figma",
+        "icon": "/images/figma.png"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Georgia O'Keeffe Portfolio",
+    "role": "Front-End Developer",
+    "category": "frontend",
+    "image": "/images/webPorto.png",
+    "link": "https://github.com/marsyaaurl/Georgia_OKeeffe",
+    "description": "I developed a multi-page educational website profiling artist Georgia O'Keeffe using Laravel and Blade. The site includes a biography, artwork gallery, and exhibition listings, offering an engaging way to explore the artist's legacy.",
+    "tech": [
+      {
+        "name": "Laravel",
+        "icon": "/images/laravel.png"
+      },
+      {
+        "name": "PHP",
+        "icon": "/images/php.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "/images/mysql.png"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "GetJudged",
+    "role": "Fullstack Developer",
+    "category": "fullstack",
+    "image": "/images/getjudged.png",
+    "link": "https://getjudged.vercel.app/",
+    "description": "GetJudged is an anonymous web platform where users confess past mistakes or questionable decisions and receive sarcastic, AI-generated verdicts in response. Built with a strong focus on privacy and interaction design, the app turns personal storytelling into an entertaining yet safe AI-powered experience.",
+    "tech": [
+      {
+        "name": "Next.js",
+        "icon": "/images/next-js.svg"
+      },
+      {
+        "name": "Supabase",
+        "icon": "/images/supabase.png"
+      },
+      {
+        "name": "OpenAI API",
+        "icon": "/images/openai.svg"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Shuffle Battle",
+    "role": "Front-End Developer",
+    "category": "frontend",
+    "image": "/images/shufflebattle.png",
+    "link": "https://shuffle-battle.vercel.app/",
+    "description": "Shuffle Battle is a web application that compares two Spotify playlists to determine which one is more underground, based on average track popularity. I built the app using React.js and integrated the Spotify Web API to fetch playlist data and calculate metrics such as popularity scores, track counts, and artist overlaps.",
+    "tech": [
+      {
+        "name": "React",
+        "icon": "/images/react.svg"
+      },
+      {
+        "name": "Spotify API",
+        "icon": "/images/spotify.png"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Trax",
+    "role": "Fullstack Developer",
+    "category": "fullstack",
+    "image": "/images/Trax.png",
+    "link": "https://github.com/marsyaaurl/Trax",
+    "description": "Trax is a single-page productivity app combining task tracking and note-taking for students. I designed and developed the UI using React.js and Tailwind CSS, and built the backend using Express.js to handle API routes and data management. I implemented dynamic components and RESTful endpoints to help users manage their academic responsibilities more efficiently.",
+    "tech": [
+      {
+        "name": "React",
+        "icon": "/images/react.svg"
+      },
+      {
+        "name": "Express",
+        "icon": "/images/express-js.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "/images/mysql.png"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "nebr",
+    "role": "Mobile Developer",
+    "category": "mobile",
+    "image": "/images/nebr.png",
+    "link": "https://github.com/marsyaaurl/nebr",
+    "description": "nebr is a mobile ride-sharing application that connects daily commuters sharing similar routes. Designed to simplify carpooling, it allows users to match with coworkers or neighbors, coordinate travel schedules, and split transport bills (gas, toll fees) to make daily work travel cost-efficient and sustainable.",
+    "tech": [
+      {
+        "name": "Kotlin",
+        "icon": "/images/kotlin.png"
+      }
+    ]
+  }
+]

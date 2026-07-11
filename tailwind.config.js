@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily:{
         krona: ['"Krona One"', 'sans-serif'],
-        manrope: ['"Manrope"', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
 
       screens: {
@@ -16,13 +16,21 @@ export default {
       },
 
       colors: {
-        background: "#1E1E1E",
-        mainblue: "#71A6F2",
-        secondgreen: "#70E9A7",
-        thirdred: "#F30916",
-        thirdyellow: "#F3E398",
-        thirdpink: "#FFB9E9",
-        whitefont: "#E0E0E0"
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "var(--primary)",
+          foreground: "var(--primary-foreground)",
+        },
+        secondary: {
+          DEFAULT: "var(--secondary)",
+          foreground: "var(--secondary-foreground)",
+        },
+        border: "var(--border)",
+        card: "var(--card)",
+        "card-foreground": "var(--card-foreground)",
+        muted: "var(--muted)",
+        "muted-foreground": "var(--muted-foreground)",
       }
     },
   },

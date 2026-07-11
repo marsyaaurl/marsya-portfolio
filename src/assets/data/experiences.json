@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "role": "Frontend Developer & Backend Developer",
+    "company": "Veterantech UPNVJ",
+    "period": "January 2026 - Present",
+    "type": "experience",
+    "description": [
+      "Developed the frontend of a school management website for SDN 5 Joglo using Next.js (https://sdnjoglo05.sch.id/).",
+      "Built the frontend of SIERA, an integrated platform for information management, participant tracking, and certification for PATRIBERA using React (https://siera.veterantech.id/).",
+      "Collaborated in developing the backend side of Dignition as an internal LMS web platform for KSM Veterantech using Hono.js."
+    ]
+  },
+  {
+    "id": "2",
+    "role": "Junior Software Developer (Intern)",
+    "company": "BPJS Ketenagakerjaan",
+    "period": "August 2025 - December 2025",
+    "type": "experience",
+    "description": [
+      "Improved JMO backend microservices using Go and Kafka, including email service migration and system refactoring.",
+      "Implemented security and reliability features such as geofencing, device tracking, and notification token management."
+    ]
+  },
+  {
+    "id": "3",
+    "role": "Programmer (Freelance)",
+    "company": "PT. Skyworth Industry Indonesia",
+    "period": "February 2026 - May 2026",
+    "type": "experience",
+    "description": [
+      "Developed Automated Testing Equipment (ATE) applications for HIPOT testing automation using C# and .NET, including TestToolConfig.exe and HIPOT Test.exe.",
+      "Implemented system configuration, testing workflows, and interface refinements to improve operational usability and production testing efficiency."
+    ]
+  },
+  {
+    "id": "4",
+    "role": "Graphic Designer & Product Designer",
+    "company": "KSM Android UPNVJ",
+    "period": "January 2025 - January 2026",
+    "type": "experience",
+    "description": [
+      "Collaborated in designing social media (e.g. Instagram) content using Figma.",
+      "Collaborated in making UI Designs using Figma for a design system website of Android UPNVJ."
+    ]
+  }
+]
