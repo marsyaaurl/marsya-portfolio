@@ -7,6 +7,7 @@ import ContactSection from './ContactSection';
 import Footer from './Footer';
 
 function LandingPage() {
+
   return (
     <div className="relative min-h-screen">
       {/* Navigation */}
