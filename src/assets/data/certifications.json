@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "MAGE X ITS 2024 UI/UX Competition",
+    "name": "3rd Place Winner of MAGE X ITS 2024 UI/UX Competition",
     "desc": "Designed an inclusive route-finding mobile interface for individuals with disabilities, focusing on accessibility, clarity, and seamless navigation experience using Figma prototypes and user-centered design principles.",
     "image": "/images/SertifMage.png"
   },
@@ -22,5 +22,17 @@
     "name": "Tech For Society 2025",
     "desc": "Delivered an introductory UI/UX design session for 10th-grade students, covering user-centered design basics and guiding them through simple hands-on prototyping with Figma.",
     "image": "/images/SertifTFS.png"
+  },
+  {
+    "id": "5",
+    "name": "Scrum Fundamental Certification",
+    "desc": "Acquired fundamental knowledge of Scrum as a framework for agile project management, including roles, events, artifacts, and principles for effective teamwork and iterative development.",
+    "image": "/images/Scrum.png"
+  },
+  {
+    "id": "6",
+    "name": "1st Place Winner UI/UX Competition by VWO Universitas Indonesia",
+    "desc": "Developed a seamless and accessible tourism experience through personalized recommendations, gamified itineraries, and a 360° virtual tour feature. It aims to make exploring Indonesian destinations easier, more inclusive, and hassle-free for all users using Figma",
+    "image": "/images/VWO.png"
   }
 ]
