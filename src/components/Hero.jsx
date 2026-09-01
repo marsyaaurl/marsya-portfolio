@@ -113,7 +113,7 @@ function Hero() {
               <span className="w-px h-6 bg-border mx-1"></span>
 
               <a
-                href="https://drive.google.com/file/d/15uVFJhn1JjE9N1XOjGmqpBEXiIiF0Xcr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Yo5tc2sfKXaWVSax7RXsheBrBdn6Tk0Z/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-2 py-2 rounded-full bg-primary-foreground text-white hover:bg-primary transition-colors font-bold text-xs shadow-sm"
