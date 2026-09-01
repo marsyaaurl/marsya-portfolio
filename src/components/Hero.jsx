@@ -103,7 +103,7 @@ function Hero() {
                 <Instagram size={16} />
               </a>
               <a
-                href="mailto:marsyaaurelia@gmail.com"
+                href="mailto:marsya.aureliasyah@gmail.com"
                 className="p-2 rounded-full border border-secondary hover:bg-secondary text-secondary-foreground transition-colors"
                 title="Email"
               >

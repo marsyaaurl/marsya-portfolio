@@ -62,7 +62,7 @@ function ContactSection() {
               <div>
                 <h4 className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Email</h4>
                 <a href="mailto:marsyaaurelia@example.com" className="text-base font-bold text-foreground hover:underline">
-                  marsyaaurelia@gmail.com
+                  marsya.aureliasyah@gmail.com
                 </a>
               </div>
             </div>
