@@ -46,6 +46,29 @@
   },
   {
     "id": "4",
+    "title": "Stall.o",
+    "role": "Fullstack Developer",
+    "category": "fullstack",
+    "image": "/images/stallo.png",
+    "link": "https://stallo-web-ten.vercel.app/",
+    "description": "Stall.o is a shared vending machine platform that enables UMKM sellers to manage and sell their products through vending machines, including reserving machine slots and monitoring sales, stock, and product performance. On the operator side, Stall.o provides tools to manage vending machines and locations, monitor slot occupancy and sales performance, handle expired products, and analyze potential locations for business expansion. The project won 1st Place in the Veternity Beraksi by UPN Veteran Yogyakarta 2026 Web Development Competition",
+    "tech": [
+      {
+        "name": "Next.js",
+        "icon": "/images/next-js.svg"
+      },
+      {
+        "name": "Supabase",
+        "icon": "/images/supabase.png"
+      },
+      {
+        "name": "Express.js",
+        "icon": "/images/express-js.png"
+      }
+    ]
+  },
+  {
+    "id": "5",
     "title": "StepIn — Inclusive Route-Finding App",
     "role": "UI/UX Designer",
     "category": "uiux",
@@ -60,7 +83,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Kelana",
     "role": "UI/UX Designer",
     "category": "uiux",
@@ -75,7 +98,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "7",
     "title": "Sahnam",
     "role": "Fullstack Developer",
     "category": "fullstack",
@@ -94,7 +117,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": "8",
     "title": "Sea Catering",
     "role": "Fullstack Developer",
     "category": "fullstack",
@@ -117,7 +140,7 @@
     ]
   },
   {
-    "id": "8",
+    "id": "9",
     "title": "Bayicara – AI Speech Stimulation App",
     "role": "Front-End Developer",
     "category": "frontend",
@@ -140,7 +163,7 @@
     ]
   },
   {
-    "id": "9",
+    "id": "10",
     "title": "NutriSee",
     "role": "UI/UX Designer",
     "category": "uiux",
@@ -155,7 +178,7 @@
     ]
   },
   {
-    "id": "10",
+    "id": "11",
     "title": "Crisease",
     "role": "UI/UX Designer",
     "category": "uiux",
@@ -170,7 +193,7 @@
     ]
   },
   {
-    "id": "11",
+    "id": "12",
     "title": "Georgia O'Keeffe Portfolio",
     "role": "Front-End Developer",
     "category": "frontend",
@@ -193,7 +216,7 @@
     ]
   },
   {
-    "id": "12",
+    "id": "13",
     "title": "GetJudged",
     "role": "Fullstack Developer",
     "category": "fullstack",
@@ -216,7 +239,7 @@
     ]
   },
   {
-    "id": "13",
+    "id": "14",
     "title": "Shuffle Battle",
     "role": "Front-End Developer",
     "category": "frontend",
@@ -235,7 +258,7 @@
     ]
   },
   {
-    "id": "14",
+    "id": "15",
     "title": "Trax",
     "role": "Fullstack Developer",
     "category": "fullstack",
@@ -258,7 +281,7 @@
     ]
   },
   {
-    "id": "15",
+    "id": "16",
     "title": "nebr",
     "role": "Mobile Developer",
     "category": "mobile",
